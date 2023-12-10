@@ -44,7 +44,7 @@ export default function Home() {
                   />
                 </Inset>
               </Grid>
-                <Text size="7" weight="bold" as="p" align="center">Let's Code</Text>
+                <Text size="7" weight="bold" as="p" align="center">Let&apos;s Code</Text>
                 <Text size="5" as="p" align="center">In a STEM filled world, programming is a must. With applications in a wide range of fields, we will be teaching python to students. We want to ignite a flame in students so that they can be introduced to computer science, start coding early on and take control of their Software education. By partaking in this course, they are one vital step closer to becoming great programmers. This can serve as a stepping stone in the direction of considering programming as a career path and in building the skill set to thrive in it.</Text>
             </Card>
           </Box>

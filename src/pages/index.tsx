@@ -9,7 +9,7 @@ export default function Home() {
           <Text size="9" weight="bold" style={{display: "block", width: "100%", textAlign: "center", marginTop: "-180px"}}>STEM Made Fun</Text>
           <Grid style={{placeItems: "center"}}>
             <Box style={{width: "90%", height: "100px", marginTop: "120px", borderRadius: "50px", backgroundColor: "lightcyan"}}>
-              <Text size="4" weight="bold" style={{display: "inline-block", lineHeight: "100px", width: "100%", textAlign: "center"}}>"It is easier to build strong children than to repair broken men." - Frederick Douglass</Text>
+              <Text size="4" weight="bold" style={{display: "inline-block", lineHeight: "100px", width: "100%", textAlign: "center"}}>&quot;It is easier to build strong children than to repair broken men.&quot; - Frederick Douglass</Text>
             </Box>
             <br></br>
             <Grid columns="4" gap="8">
@@ -29,7 +29,7 @@ export default function Home() {
                     />
                   </Inset>
                   <Text as="p" size="3">
-                    Discover STEM Made Fun's Latest Project, an interactive Science Textbook filled with experiments, fun activities, and engaging learning while delving into the basics of physics.
+                    Discover STEM Made Fun&apos;s Latest Project, an interactive Science Textbook filled with experiments, fun activities, and engaging learning while delving into the basics of physics.
                   </Text>
                   <br></br>
                   <Button radius="full" color="gray" onClick={() => window.location.href = "https://www.amazon.com/dp/B0C71W5T7F?ref_=cm_sw_r_cp_ud_dp_E7T7DNA7QVHSM6RKCXNK"}>Download</Button>
@@ -39,7 +39,7 @@ export default function Home() {
                     </Dialog.Trigger>
 
                     <Dialog.Content style={{ maxWidth: 750 }}>
-                      <Dialog.Title size="8" weight="bold" as="p" align="center">STEM Made Projects</Dialog.Title>
+                      <Dialog.Title size="8" weight="bold" as="h1" align="center">STEM Made Projects</Dialog.Title>
 
                       <Flex>
                         <img src="https://static.wixstatic.com/media/2ffcfb_77909e89be444a3ea09eb535d77ad4b1~mv2.jpeg/v1/fill/w_594,h_951,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/2ffcfb_77909e89be444a3ea09eb535d77ad4b1~mv2.jpeg" height="300px" width="300px"></img>
@@ -86,7 +86,7 @@ export default function Home() {
                       </Dialog.Trigger>
 
                       <Dialog.Content style={{ maxWidth: 750 }}>
-                        <Dialog.Title size="8" weight="bold" as="p" align="center">FCSN</Dialog.Title>
+                        <Dialog.Title size="8" weight="bold" as="h1" align="center">FCSN</Dialog.Title>
 
                         <Flex>
                           <img src="https://static.wixstatic.com/media/d3cf84_c5d8f590a14144f88ad30d9c30e13cda~mv2.jpg/v1/fill/w_959,h_636,al_c,q_85,enc_auto/306833917_456098723217905_5841695899717241821_n.jpg" height="250px" width="300px"></img>
@@ -94,7 +94,7 @@ export default function Home() {
                           We are proud to reflect on our enriching partnership with Family Connections Special Needs (FCSN). Together, we embarked on a mission to make coding accessible and enjoyable for all, regardless of their unique challenges.</Text>
                         </Flex>
                         <br></br>
-                          <Text as="p" size="4" style={{marginLeft: "10px"}}>Through this collaboration, we provided specially-tailored coding sessions, ensuring that each student at FCSN could engage with and thrive in the world of technology. The enthusiasm and progress we've seen among the students have been truly inspiring. We extend our heartfelt gratitude to FCSN for their unwavering support and look forward to more initiatives that empower and inspire. Thank you for your continued support. #FCSN #Stemmadefun #Partnership #Coding #Inclusivity</Text>
+                          <Text as="p" size="4" style={{marginLeft: "10px"}}>Through this collaboration, we provided specially-tailored coding sessions, ensuring that each student at FCSN could engage with and thrive in the world of technology. The enthusiasm and progress we&apos;ve seen among the students have been truly inspiring. We extend our heartfelt gratitude to FCSN for their unwavering support and look forward to more initiatives that empower and inspire. Thank you for your continued support. #FCSN #Stemmadefun #Partnership #Coding #Inclusivity</Text>
                     <br></br>
                         <Dialog.Close>
                           <Button variant="soft" color="gray">
@@ -132,10 +132,10 @@ export default function Home() {
                       </Dialog.Trigger>
 
                       <Dialog.Content style={{ maxWidth: 750 }}>
-                        <Dialog.Title size="8" weight="bold" as="p" align="center">Coachart x SMF</Dialog.Title>
+                        <Dialog.Title size="8" weight="bold" as="h1" align="center">Coachart x SMF</Dialog.Title>
 
                         <Flex style={{height: "175px"}}>
-                          <iframe src="https://www.youtube.com/embed/gb9OXUYhPGg?si=Qbo7AK3UmKgEEqin" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                          <iframe src="https://www.youtube.com/embed/gb9OXUYhPGg?si=Qbo7AK3UmKgEEqin" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                           <Text as="p" size="4" style={{marginLeft: "10px"}}> 
                           STEM Made Fun is a non-profit organization dedicated to providing educational support to underprivileged children through innovative and fun projects. We are proud to work with CoachArt, a non-profit organization, to make a difference in the lives of children. Learn more about our projects and how you can help.</Text>
                         </Flex>
@@ -176,7 +176,7 @@ export default function Home() {
                       </Dialog.Trigger>
 
                       <Dialog.Content style={{ maxWidth: 750 }}>
-                        <Dialog.Title size="8" weight="bold" as="p" align="center">SMF Summer 2020</Dialog.Title>
+                        <Dialog.Title size="8" weight="bold" as="h1" align="center">SMF Summer 2020</Dialog.Title>
 
                         <Flex>
                           <img src="https://static.wixstatic.com/media/c970dc_b8902e32cce8466d86417648925510d7~mv2.png/v1/crop/x_0,y_414,w_4032,h_2196/fill/w_1520,h_828,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/IMG_7071_HEIC.png" height="200px" width="300px"></img>
@@ -217,13 +217,13 @@ export default function Home() {
                       </Dialog.Trigger>
 
                       <Dialog.Content style={{ maxWidth: 750 }}>
-                        <Dialog.Title size="8" weight="bold" as="p" align="center">TGIF</Dialog.Title>
+                        <Dialog.Title size="8" weight="bold" as="h1" align="center">TGIF</Dialog.Title>
 
                         <Flex>
                           <img src="https://cdn.discordapp.com/attachments/937862402337296414/1183163201853079592/image.png?ex=65875599&is=6574e099&hm=61c077aa2148bc4437614a84269024656246b5db
                             550d3baf8f723877f8dd89ee&" height="300px" width="300px"></img>
                           <Text as="p" size="4" style={{marginLeft: "10px"}}>
-                          Greetings to all our supporters, We're delighted to look back on our successful partnership with TGIF. Together, we brought exciting coding, science, and debate classes to Warm Springs Elementary on Mondays, Wednesdays, and Thursdays. This collaboration sparked creativity and instilled a love for learning among the students. We're grateful for TGIF's support, and we look forward to future endeavors that inspire young minds. Thank you for your continued support. #TGIF #Stemmadefun #Partnership #Coding #Science #Debate</Text>
+                          Greetings to all our supporters, We&apos;re delighted to look back on our successful partnership with TGIF. Together, we brought exciting coding, science, and debate classes to Warm Springs Elementary on Mondays, Wednesdays, and Thursdays. This collaboration sparked creativity and instilled a love for learning among the students. We&apos;re grateful for TGIF&apos;s support, and we look forward to future endeavors that inspire young minds. Thank you for your continued support. #TGIF #Stemmadefun #Partnership #Coding #Science #Debate</Text>
                         </Flex>
 
                     <br></br>
@@ -263,7 +263,7 @@ export default function Home() {
                       </Dialog.Trigger>
 
                       <Dialog.Content style={{ maxWidth: 750 }}>
-                        <Dialog.Title size="8" weight="bold" as="p" align="center">Nodia India</Dialog.Title>
+                        <Dialog.Title size="8" weight="bold" as="h1" align="center">Nodia India</Dialog.Title>
 
                         <Flex>
                           <img src="https://static.wixstatic.com/media/c970dc_fabb293af7364e0baf99d8e69c80eab4~mv2.png/v1/fill/w_882,h_518,al_c,lg_1,q_90,enc_auto/c970dc_fabb293af7364e0baf99d8e69c80eab4~mv2.png" height="300px" width="300px"></img>
@@ -324,11 +324,11 @@ export default function Home() {
                       </Dialog.Trigger>
 
                       <Dialog.Content style={{ maxWidth: 750 }}>
-                        <Dialog.Title size="8" weight="bold" as="p" align="center">Robotic Rampage x SMF</Dialog.Title>
+                        <Dialog.Title size="8" weight="bold" as="h1" align="center">Robotic Rampage x SMF</Dialog.Title>
 
                         <Flex>
                           <img src="https://static.wixstatic.com/media/c970dc_0ff5ea7458ab4d08a7034807ef270fd5~mv2.png/v1/crop/x_0,y_424,w_4032,h_2196/fill/w_1520,h_828,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/IMG_4681_HEIC.png" height="250px" width="300px"></img>
-                          <Text as="p" size="4" style={{marginLeft: "10px"}}>STEM Made fun is working with student teachers from Robotic Rampage to mentor other robotics teams nearby and introduce robotics in a fun and engaging way. Robotic Rampage has been competing as a part of First Tech Challenge for 5 years and as a part of their outreach program, they reached out to many new teams. One example we helped the rookie FTC team named Technogoats with understanding the basics of FTC and had multiple workshops with them. Another team is the Incredigirls, a rookie all girls FLL team we helped by having numerous workshops and providing them with game winning strategies. SMF also helped Robotic Rampage's outreach effort by working together on sending letters to first responders during the COVID-19 Pandemic.
+                          <Text as="p" size="4" style={{marginLeft: "10px"}}>STEM Made fun is working with student teachers from Robotic Rampage to mentor other robotics teams nearby and introduce robotics in a fun and engaging way. Robotic Rampage has been competing as a part of First Tech Challenge for 5 years and as a part of their outreach program, they reached out to many new teams. One example we helped the rookie FTC team named Technogoats with understanding the basics of FTC and had multiple workshops with them. Another team is the Incredigirls, a rookie all girls FLL team we helped by having numerous workshops and providing them with game winning strategies. SMF also helped Robotic Rampage&apos;s outreach effort by working together on sending letters to first responders during the COVID-19 Pandemic.
 Website: http://www.roboticrampage.com.</Text>
                         </Flex>
 

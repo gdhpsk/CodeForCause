@@ -1,4 +1,5 @@
 import { Tabs, Dialog, Flex, Button, Box, Text, TextField, TextArea } from '@radix-ui/themes';
+import Link from 'next/link';
 import {useState} from 'react'
 
 export default function Nav() {
@@ -13,19 +14,19 @@ let [error, setError] = useState("")
     <>
       <Tabs.Root>
         <Tabs.List>
-          <Tabs.Trigger value="home"><a href="/">Home</a></Tabs.Trigger>
-          <Tabs.Trigger value="endorsements"><a href="/endorsements">Endorsements</a></Tabs.Trigger>
-          <Tabs.Trigger value="subjects"><a href="/subjects">Subjects</a></Tabs.Trigger>
-          <Tabs.Trigger value="team"><a href="/team">Team</a></Tabs.Trigger>
+          <Tabs.Trigger value="home"><Link href="/">Home</Link></Tabs.Trigger>
+          <Tabs.Trigger value="endorsements"><Link href="/endorsements">Endorsements</Link></Tabs.Trigger>
+          <Tabs.Trigger value="subjects"><Link href="/subjects">Subjects</Link></Tabs.Trigger>
+          <Tabs.Trigger value="team"><Link href="/team">Team</Link></Tabs.Trigger>
           <Tabs.Trigger value="contact">
             <Dialog.Root>
               <Dialog.Trigger>
-                <span radius="full" style={{marginLeft: "10px", textDecoration: "underline"}}>Contact us</span>
+                <span style={{marginLeft: "10px", textDecoration: "underline"}}>Contact us</span>
               </Dialog.Trigger>
 
               <Dialog.Content style={{ maxWidth: 750 }}>
-                <Dialog.Title size="8" weight="bold" as="p" align="center">Contact</Dialog.Title>
-                 <Dialog.Description as="p" align="center">Please reach out to us if you have any questions / want to join us.</Dialog.Description>
+                <Dialog.Title size="8" weight="bold" as="h2" align="center">Contact</Dialog.Title>
+                 <Dialog.Description align="center">Please reach out to us if you have any questions / want to join us.</Dialog.Description>
 <br></br>
                 
                   <Flex gap="8">

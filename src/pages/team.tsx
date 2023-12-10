@@ -31,7 +31,7 @@ export default function Home() {
                     Krishiv Aggarwal
                   </Text>
                   <Text as="p" size="3">
-                    Hi I am Krishiv, a rising senior at Irvington High School in Fremont, California, with a strong interest in the fields of computers and engineering. Growing up in Silicon Valley with parents who hold master's degrees in STEM fields has provided me with extensive exposure to subjects relating to robotics and sciences and encouraged me to pursue knowledge in programming languages such as Python, web development (HTML, CSS, JavaScript), and C.
+                    Hi I am Krishiv, a rising senior at Irvington High School in Fremont, California, with a strong interest in the fields of computers and engineering. Growing up in Silicon Valley with parents who hold master&apos;s degrees in STEM fields has provided me with extensive exposure to subjects relating to robotics and sciences and encouraged me to pursue knowledge in programming languages such as Python, web development (HTML, CSS, JavaScript), and C.
                   </Text>
                 </Card>
               </Box>
@@ -57,7 +57,7 @@ export default function Home() {
                     Aashrith Bandaru
                   </Text>
                   <Text as="p" size="3">
-                    I'm Aashrith Bandaru, a STEM education advocate and entrepreneurial leader from Fremont, California. My passion lies at the intersection of data science and business, and I've gained extensive programming knowledge in web development, Python, and Java. As the president of the Data Science Club at Irvington High School, I've honed my skills and achieved success in business competitions, winning first place in VBC at the International Career Development Conference with DECA. I've also made a lasting impact through co-founding STEM Made Fun, a nonprofit organization focused on accessible education and community service. With every endeavor, I strive to leave a positive and significant mark on the world around me.
+                    I&apos;m Aashrith Bandaru, a STEM education advocate and entrepreneurial leader from Fremont, California. My passion lies at the intersection of data science and business, and I&apos;ve gained extensive programming knowledge in web development, Python, and Java. As the president of the Data Science Club at Irvington High School, I&apos;ve honed my skills and achieved success in business competitions, winning first place in VBC at the International Career Development Conference with DECA. I&apos;ve also made a lasting impact through co-founding STEM Made Fun, a nonprofit organization focused on accessible education and community service. With every endeavor, I strive to leave a positive and significant mark on the world around me.
                   </Text>
                 </Card>
               </Box>
@@ -89,7 +89,7 @@ export default function Home() {
                     Anish Ayyadevara
                   </Text>
                   <Text as="p" size="3">
-                    Hi, my name is Anish Ayyadevara I'm a student at Irvington High School with a keen interest in the field of business. I am proud to say that at the age of 17, I have already started multiple companies and gained recognition as an entrepreneur. One of my successful ventures is TradeChoice LLC in which has gained recognition across the USA and is continuing to grow.
+                    Hi, my name is Anish Ayyadevara. I&apos;m a student at Irvington High School with a keen interest in the field of business. I am proud to say that at the age of 17, I have already started multiple companies and gained recognition as an entrepreneur. One of my successful ventures is TradeChoice LLC in which has gained recognition across the USA and is continuing to grow.
                   </Text>
                 </Card>
                 <br></br>
@@ -137,7 +137,7 @@ export default function Home() {
                     Karthik Nukavarapu
                   </Text>
                   <Text as="p" size="3">
-                    Hi, my name is Karthik Nukavarapu and I'm a student at Washington High School and interested in STEM and plan on majoring in computer science. I have worked with Stem Made Fun for over a year now and have been a volunteer that has put in many hours from helping children learn coding to making curriculum. I have learnt Python and Java and currentlyy learning HTML, CSS, and JavaScript.
+                    Hi, my name is Karthik Nukavarapu and I&apos;m a student at Washington High School and interested in STEM and plan on majoring in computer science. I have worked with Stem Made Fun for over a year now and have been a volunteer that has put in many hours from helping children learn coding to making curriculum. I have learnt Python and Java and currentlyy learning HTML, CSS, and JavaScript.
                   </Text>
                 </Card>
                 <br></br>

@@ -9,9 +9,9 @@ export default function Home() {
               <Card size="2" style={{marginTop: "100px", maxWidth: 300}}>
                 <Text size="8" weight="bold" as="p" align="center">Endorsements</Text>
                 <br></br>
-                <Text size="7" as="p" align="center">Fremont's Mayor, Lily Mei</Text> 
+                <Text size="7" as="p" align="center">Fremont&apos;s Mayor, Lily Mei</Text> 
                 <br></br>
-                <Text size="6" as="p" align="center">Current Members. Mayor Lily Mei was sworn in December 2016 as Fremont's first woman and minority mayor in Fremont's 63 year history. She first was elected to the Fremont City Council in 2014.</Text>
+                <Text size="6" as="p" align="center">Mayor Lily Mei was sworn in December 2016 as Fremont&apos;s first woman and minority mayor in Fremont&apos;s 63 year history. She first was elected to the Fremont City Council in 2014.</Text>
               </Card>
             </Box>
             <Box>
