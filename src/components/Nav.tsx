@@ -18,6 +18,7 @@ let [error, setError] = useState("")
           <Tabs.Trigger value="endorsements"><Link href="/endorsements">Endorsements</Link></Tabs.Trigger>
           <Tabs.Trigger value="subjects"><Link href="/subjects">Subjects</Link></Tabs.Trigger>
           <Tabs.Trigger value="team"><Link href="/team">Team</Link></Tabs.Trigger>
+          <Tabs.Trigger value="team"><Link href="/blog">Blog</Link></Tabs.Trigger>
           <Tabs.Trigger value="contact">
             <Dialog.Root>
               <Dialog.Trigger>
