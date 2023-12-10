@@ -1,0 +1,39 @@
+.body {
+  background: #4683b7;
+  border: solid black;
+  border-radius: auto;
+  padding: 10px;
+  margin-top: -10px;
+  margin-left: -10px;
+  margin-right: -15px;
+  height: 100vh;
+}
+
+.h1 {
+  background: #ffb43f;
+  font-family: HelveticaNeueW01-45Ligh, HelveticaNeueW02-45Ligh, HelveticaNeueW10-45Ligh, Helvetica Neue, Helvetica, Arial, \\30e1イリオ, meiryo, \\30d2ラギノ角ゴpro w3, hiragino kaku gothic pro;
+  color: #4f7a28;
+  border: solid black;
+  border-radius: 25px;
+  padding: 10px;
+  text-align: center;
+}
+
+.h2 {
+  background: #be38f3;
+  color: #669c35;
+  border: solid black;
+  border-radius: 10px;
+  padding: 5px;
+  text-align: center;
+
+}
+
+.p {
+  background: #ff4013;
+  color: #0056d6;
+  border: solid #c4bc00;
+  border-radius: 5px;
+  padding: 3px;
+  text-align: left;
+}
