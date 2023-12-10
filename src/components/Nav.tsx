@@ -1,4 +1,4 @@
-import { Tabs, Dialog, Flex, Button, Box, Text, TextField, TextArea } from '@radix-ui/themes';
+import { Tabs, Dialog, Flex, Button, Box, Text, TextField, TextArea, Grid } from '@radix-ui/themes';
 import Link from 'next/link';
 import {useEffect, useState} from 'react'
 
@@ -132,7 +132,7 @@ useEffect(() => {
                  <Dialog.Description align="center">Please reach out to us if you have any questions / want to join us.</Dialog.Description>
 <br></br>
                 
-                  <Flex gap="8">
+                  <Grid columns={width.width > 500 ? "2" : "1"} gap="8">
                     <Box>
                       <Text size="4" weight="bold" align="center">Phone</Text>
                       <br></br>
@@ -143,7 +143,7 @@ useEffect(() => {
                       <br></br>
                       <Text size="4" align="center">stemmadefun@gmail.com</Text>
                     </Box>
-                  </Flex>
+                  </Grid>
                 <br></br>
 
                 <Box>
