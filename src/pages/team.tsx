@@ -1,6 +1,12 @@
 import { Box, Text, Grid, Card, Inset, Button, Dialog, Flex } from '@radix-ui/themes';
+import { useEffect, useState } from 'react';
 
 export default function Home() {
+  let [width, setWidth] = useState({width: 0})
+  const getWidth = () => typeof document !== "undefined" ? document.body.clientWidth : 0
+  useEffect(() => {
+    setWidth({width: getWidth()})
+  }, [getWidth()])
   return (
     <>
       <main style={{marginTop: "-10px", marginLeft: "-10px", marginRight: "-15px"}}>
@@ -8,7 +14,7 @@ export default function Home() {
           <Text size="9" weight="bold" style={{display: "block", width: "100%", textAlign: "center", marginTop: "50px"}}>Meet our Team</Text>
           <Grid style={{placeItems: "center", marginTop: "40px"}}>
             
-            <Grid columns="2" gap="8">
+            <Grid columns={width.width > 600 ? "2" : "1"} gap="8">
               <Box>
                 <Card size="2" style={{ maxWidth: 400 }}>
                   <Inset clip="padding-box" side="top" pb="current">
@@ -66,7 +72,7 @@ export default function Home() {
           <Text size="8" weight="bold" style={{display: "block", width: "100%", textAlign: "center", marginTop: "50px"}}>Officers</Text>
           <Grid style={{placeItems: "center", marginTop: "40px"}}>
 
-            <Grid columns="3" gap="8">
+            <Grid columns={width.width > 1000 ? "3" : width.width > 600 ? "2" : "1"} gap="8">
               <Box>
                 <Card size="2" style={{ maxWidth: 400 }}>
                   <Inset clip="padding-box" side="top" pb="current">
@@ -216,7 +222,7 @@ export default function Home() {
            <Text size="8" weight="bold" style={{display: "block", width: "100%", textAlign: "center", marginTop: "50px"}}>Local Volunteers</Text>
           <Grid style={{placeItems: "center", marginTop: "40px"}}>
 
-            <Grid columns="3" gap="8">
+            <Grid columns={width.width > 600 ? "3" : "2"} gap="8">
               <Box>
                 <Card size="2" style={{ maxWidth: 400 }}>
                   <Inset clip="padding-box" side="top" pb="current">

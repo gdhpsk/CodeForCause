@@ -1,10 +1,16 @@
 import { Text, Grid, Card, Box } from '@radix-ui/themes';
+import { useEffect, useState } from 'react';
 
 export default function Home() {
+  let [width, setWidth] = useState({width: 0})
+  const getWidth = () => typeof document !== "undefined" ? document.body.clientWidth : 0
+  useEffect(() => {
+    setWidth({width: getWidth()})
+  }, [getWidth()])
   return (
     <>
       <main>
-          <Grid columns="2" gap="1" style={{marginTop: "30px", marginLeft: "15%"}}>
+          <Grid columns={width.width > 800 ? "2" : "1"} gap="5" style={{marginTop: "30px", marginLeft: "15%"}}>
             <Box>
               <Card size="2" style={{marginTop: "100px", maxWidth: 300}}>
                 <Text size="8" weight="bold" as="p" align="center">Endorsements</Text>

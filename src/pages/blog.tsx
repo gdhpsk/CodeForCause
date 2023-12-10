@@ -10,7 +10,7 @@ export default function Home() {
         <Grid columns="1" width="auto" style={{marginTop: "20px", placeItems: "center"}}>
           <Dialog.Root>
             <Dialog.Trigger>
-              <div style={{marginLeft: "10px", width: "80%", height: "250px", backgroundColor: "lightcyan"}}>
+              <div style={{marginLeft: "10px", width: "80%", height: "auto", backgroundColor: "lightcyan"}}>
               <Flex gap="3" style={{padding: "10px"}}>
                 <Avatar src="https://lh3.googleusercontent.com/a/AAcHTtfSth4TbL-Q8fSOZIWZewhYr3XWNVMOgc6EeRqBnYeTc40%3Ds96-c" fallback="pfp" radius="full"></Avatar>
                 <Text size="3" weight="bold" style={{lineHeight: "40px"}}>Anish Ayyadevara</Text>
@@ -62,7 +62,7 @@ export default function Home() {
         <Grid columns="1" width="auto" style={{marginTop: "20px", placeItems: "center"}}>
           <Dialog.Root>
             <Dialog.Trigger>
-              <div style={{marginLeft: "10px", width: "80%", height: "250px", backgroundColor: "lightcyan"}}>
+              <div style={{marginLeft: "10px", width: "80%", height: "auto", backgroundColor: "lightcyan"}}>
               <Flex gap="3" style={{padding: "10px"}}>
                 <Avatar src="https://lh3.googleusercontent.com/a/AAcHTtdvY6gwzg38C76LlnYyh-WAPVXn0aw-s50CJPIo%3Ds96-c" fallback="pfp" radius="full"></Avatar>
                 <Text size="3" weight="bold" style={{lineHeight: "40px"}}>Stem Fun</Text>

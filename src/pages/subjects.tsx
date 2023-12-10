@@ -1,13 +1,19 @@
+import { useEffect, useState } from "react";
 import styles from "../styles/subjects.module.css"
 import { Grid, Box, Text, Card, Inset, Avatar } from '@radix-ui/themes';
 
 export default function Home() {
+  let [width, setWidth] = useState({width: 0})
+  const getWidth = () => typeof document !== "undefined" ? document.body.clientWidth : 0
+  useEffect(() => {
+    setWidth({width: getWidth()})
+  }, [getWidth()])
   return (
     <>
       <main>
         <Text size="9" as="p" align="center" weight="bold" style={{marginTop: "20px"}}>Our Subjects!</Text>
         
-        <Grid columns="4" gap="3" width="auto" style={{marginTop: "20px"}}>
+        <Grid columns={width.width > 800 ? "4" : width.width > 500 ? "2" : "1"} gap="3" width="auto" style={{marginTop: "20px"}}>
             <Box>
               
                 <Card size="2">
